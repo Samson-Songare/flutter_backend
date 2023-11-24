@@ -29,6 +29,7 @@ db.connect( err =>{
     console.log('Connected to Mysql database');
 });
 
+// Server connection
 app.listen(port, () =>{
     console.log(`Server is running on port ${port}`);
 });
